@@ -1,4 +1,4 @@
-# Simple Calculator Project Using Python:
+## Simple Calculator Project Using Python:
 # Project Overview:-
 
 This is a simple calculator application implemented in Python. The calculator can perform basic arithmetic operations: addition, subtraction, multiplication, and division. The user can perform multiple calculations consecutively without restarting the program.
@@ -6,7 +6,9 @@ This is a simple calculator application implemented in Python. The calculator ca
 1 Features:-
 
 - Perform basic arithmetic operations: addition, subtraction, multiplication, and division.
+  
 - Continuous calculations with the option to use the result of the previous calculation.
+
 - Option to start a new calculation at any time.
 
 2 Requirements:-
@@ -21,10 +23,10 @@ art.py: (Optional) A module that contains the ASCII art for the logo.
 
 4 Code Explanation:-
 
-~ Importing Modules
+→ Importing Modules
 The script imports the logo from an art module which is used to display a logo when the calculator starts. 
 
-from art import logo
+→ from art import logo
 
 5 Defining Arithmetic Functions:-
 Four functions are defined to perform basic arithmetic operations.
@@ -62,7 +64,7 @@ def calculator():
   print(logo)  # Display the logo
   num1 = float(input("What is the first number?: "))  # Get the first number from the user
 
-  # Display available operations
+  #Display available operations
   for symbol in operations:
     print(symbol) 
 
@@ -100,7 +102,7 @@ calculator()
 
 ~ Choose to either continue calculating with the result or start a new calculation.
 
-10 Example Usage:-
+# → Example Usage:-
 
 What is the first number?: 10
 +
